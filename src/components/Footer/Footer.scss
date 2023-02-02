@@ -1,0 +1,200 @@
+@media only screen and (min-width: 900px) {
+    .footer-wrapper {
+
+        background-color: #EEEFF1;
+
+        hr {
+            // border-color: #b1b1b1;
+        }
+
+        .firstPart {
+            // font-size: 1.85vw;
+            color: #000;
+            display: flex;
+            height: 25vw;
+            margin: auto;
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+            text-align: left;
+            width: 72vw;
+
+            .right {
+                display: flex;
+                margin-top: 7vw;
+                font-size: 1vw;
+
+                h4 {
+                    font-size: 1.2vw;
+                }
+
+                .right1 {
+                    margin-left: 3vw;
+                }
+
+                .left1 {
+                    width: 12vw;
+
+                    p {
+                        line-height: 1.9vw;
+                    }
+                }
+            }
+
+            .left {
+                width: 43vw;
+                margin-right: 5vw;
+
+                img {
+                    width: 14vw;
+                }
+
+                h5 {
+                    font-size: 1.2vw;
+                    margin: 2vw 0vw 0.8vw;
+                }
+
+                p {
+                    font-size: 1vw;
+                    line-height: 1.8vw;
+                    width: 40.5vw;
+                    margin: 0;
+                }
+            }
+        }
+
+        .secondPart {
+            display: flex;
+            justify-content: space-between;
+            color: #000;
+            width: 72vw;
+            margin: auto;
+            height: 8vw;
+            font-size: 1vw;
+
+            .Terms {
+                display: flex;
+
+                p {
+                    padding-left: 2vw;
+                    font-weight: 600;
+                }
+
+            }
+
+
+        }
+
+        .store {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 4vw;
+            align-items: center;
+            flex-direction: row-reverse;
+            margin-top: 10px;
+
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-wrapper {
+
+        background-color: #EEEFF1;
+
+        hr {
+            margin-top: 8vw;
+        }
+
+        .firstPart {
+            color: #000;
+            margin: auto;
+            padding-top: 4vw;
+            height: 55vw;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+
+            .right {
+                // margin-top: 7vw;
+                font-size: 1vw;
+
+                h4 {
+                    font-size: 2.8vw;
+                    margin-bottom: 2vw;
+                    margin-top: -2vw;
+                }
+
+                .right1 {
+                    // margin-left: 3vw;
+
+                    p {
+                        color: #4460EF;
+                        font-size: 3.2vw;
+                        margin-top: -1vw;
+                        font-weight: 700;
+
+                    }
+                }
+
+                .left1 {
+                    display: none;
+                }
+            }
+
+            .left {
+                // width: 43vw;
+                margin: 2vw auto;
+
+                .kad {
+                    display: none;
+                }
+
+                img {
+                    width: 23vw;
+                }
+
+                h5 {
+                    font-size: 2.8vw;
+                    margin: 3vw 0
+                }
+
+                p {
+                    font-size: 2.7vw;
+                    line-height: 3vw;
+                    width: 82.5vw;
+                }
+            }
+        }
+
+        .secondPart {
+            justify-content: space-between;
+            color: #000;
+            width: 72vw;
+            margin: auto;
+            height: 5vw;
+            font-size: 1vw;
+
+            p {
+                font-size: 2vw;
+                font-weight: 600;
+            }
+
+            .Terms {
+                display: none;
+            }
+        }
+
+        .store {
+            justify-content: center;
+            padding-bottom: 4vw;
+            align-items: center;
+            flex-direction: row-reverse;
+            margin-top: 10px;
+
+        }
+    }
+
+
+}

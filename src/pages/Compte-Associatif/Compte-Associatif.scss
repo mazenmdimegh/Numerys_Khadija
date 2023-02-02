@@ -1,0 +1,350 @@
+@media only screen and (min-width: 945px) {
+
+    .compte-Associatif-wrapper {
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            width: 15.5vw;
+            height: 3.15vw;
+            background-color: #F72586;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            font-size: 22px;
+            font-family: 'SourceSansPro Regular';
+            cursor: pointer;
+        }
+
+        .Nations-wrap {
+            color: white;
+            display: flex;
+            flex-direction: row;
+            margin: 0 80px 0 0;
+
+            .quran {
+                z-index: 11;
+                width: 42vw;
+                padding: 48px 48px 48px 93px;
+
+                p {
+                    // padding: 0 20px;
+                    text-align: left;
+                    font-size: 1.1vw;
+                    width: 39vw;
+                    // font-family: "Open Sans";
+                }
+
+                span {
+                    font-weight: 900;
+                    letter-spacing: 0.5px;
+                }
+
+                h2 {
+                    margin: 3vw 0 2vw;
+                    font-size: 2.5vw;
+                    width: 36.3vw;
+                    text-align: left;
+                }
+
+                button {
+                    float: left;
+                    margin-top: 10px;
+                }
+            }
+
+            .business {
+                z-index: 11;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 35vw;
+
+                .img {
+                    width: 39vw;
+                    margin-right: 6vw;
+                    // margin-top: 29px;
+                }
+
+                .shape {
+                    position: absolute;
+                    width: 6vw;
+                    margin: -12.5vw 15vw 0vw;
+                    z-index: -10;
+                }
+            }
+
+            .back-right {
+                background-color: #7109B6;
+                // float: right;
+                width: 61%;
+                height: 35vw;
+                // background-size: 70%;
+                border-radius: 20px;
+                position: absolute;
+                // z-index: 10;
+            }
+        }
+
+        .Nations-wrapVM {
+            display: none;
+        }
+
+        .reussir-wrapper {
+            display: flex;
+            margin: 9vw 12vw 6vw 19vw;
+            flex-direction: column;
+
+            .reussir1 {
+                display: flex;
+                justify-content: center;
+
+                .reussir1-right {
+                    padding: 0 8vw 35px 6vw;
+                    text-align: left;
+                    width: 33vw;
+
+                    p {
+                        font-size: 1vw;
+                        margin-top: 0;
+                    }
+
+                    h2 {
+                        font-size: 2.3vw;
+                        width: 33vw;
+                        margin-top: -2vw;
+                        margin-bottom: 18px;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #F72586;
+                        font-weight: 700;
+                        font-size: 1.1vw;
+                        margin-top: 23px;
+                        margin-bottom: 5px;
+                    }
+
+                    .check {
+                        position: absolute;
+                        margin-left: -19px;
+                        margin-top: 4px;
+                        width: 12px;
+                        height: 12px;
+                    }
+                }
+
+
+                .reussir1-left {
+                    z-index: 11;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .imgVM {
+                        display: none;
+                    }
+
+                    .img {
+                        width: 42vw;
+                        min-width: 251px;
+                    }
+
+                    .shape {
+                        position: absolute;
+                        width: 5.5vw;
+                        margin: -2.6vw 0px 0 19.4vw;
+                        z-index: -10;
+                    }
+
+                    .shape2 {
+                        position: absolute;
+                        width: 5vw;
+                        margin: 26.4vw 0px 0 -20vw;
+                        z-index: -3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 945px) {
+
+    .compte-Associatif-wrapper {
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            background-color: #f72586;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            font-family: SourceSansPro Regular;
+            font-size: 3vw;
+            height: 6vw;
+            width: 28vw;
+            margin-top: 1vw;
+        }
+
+        .Nations-wrap {
+            display: none;
+        }
+
+        .Nations-wrapVM {
+            color: white;
+            display: flex;
+            // flex-direction: column-reverse;
+            margin: 44px 0 30px;
+            flex-direction: column;
+            align-items: center;
+
+            .quran {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                padding: 0 8vw;
+                z-index: 11;
+
+                p {
+                    font-size: 2.7vw;
+                    text-align: center;
+                    margin-top: 0;
+                }
+
+                span {
+                    font-weight: 900;
+                    letter-spacing: 0.5px;
+                }
+
+                h2 {
+                    margin: 3vw 0 3vw;
+                    font-size: 3.5vw;
+                    max-width: 754px;
+                }
+            }
+
+            .business {
+                z-index: 11;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                .img {
+                    border-radius: 18px;
+                    margin-top: 7vw;
+                    width: 44vw;
+                }
+
+                .shape {
+                    margin: -11vw 17.8vw 0;
+                    position: absolute;
+                    width: 7vw;
+                    z-index: -10;
+                }
+            }
+
+            .back-right {
+                background-color: #7109b6;
+                height: 91vw;
+                position: absolute;
+                width: 100%;
+            }
+        }
+
+        .reussir-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin: 17vw 12vw 0vw;
+
+            .reussir1 {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .reussir1-right {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 8vw 35px 6vw;
+                    text-align: center;
+                    width: 77vw;
+
+
+                    // margin-top: -5.5vw;
+
+                    p {
+                        font-size: 2.5vw;
+                    }
+
+                    h2 {
+                        font-size: 3vw;
+                        margin-bottom: 11px;
+                        margin-top: 7vw;
+                        width: 55vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #F72586;
+                        font-weight: 700;
+                        font-size: 1.1vw;
+                        margin-top: 23px;
+                        margin-bottom: 5px;
+                    }
+
+                    .check {
+                        position: absolute;
+                        margin-left: -19px;
+                        margin-top: 4px;
+                        width: 12px;
+                        height: 12px;
+                    }
+                }
+
+
+                .reussir1-left {
+                    z-index: 11;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .img {
+                        display: none;
+                    }
+
+                    .imgVM {
+                        width: 62vw;
+                        // min-width: 251px;
+                        // margin: auto;
+                    }
+
+                    .shape {
+                        margin: -3vw 0 0 29vw;
+                        position: absolute;
+                        width: 6vw;
+                        z-index: -10;
+                    }
+
+                    .shape2 {
+                        margin: 29vw 0 0 -21vw;
+                        position: absolute;
+                        width: 7vw;
+                        z-index: -3;
+                    }
+                }
+            }
+        }
+    }
+}

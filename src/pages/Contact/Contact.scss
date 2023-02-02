@@ -1,0 +1,392 @@
+@media only screen and (min-width: 945px) {
+
+    .contact-wrapper {
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            width: 15.5vw;
+            height: 3vw;
+            background-color: #F72586;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            font-size: 22px;
+            font-family: 'SourceSansPro Regular';
+            cursor: pointer;
+        }
+
+        .reussir-wrapper {
+            // height: 500px;
+            // background-color: rgb(226, 0, 0);
+            display: flex;
+            margin: 1vw 0vw 9vw 4vw;
+            flex-direction: column;
+
+            .reussir1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .reussir1-right {
+                    background: url(../../assets/Contact/Rectangle4436.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    text-align: center;
+                    width: 53vw;
+                    height: 42vw;
+                    z-index: 10;
+
+                    p {
+                        font-size: 1.5vw;
+                        width: 34vw;
+                        margin: 3vw 7vw 1vw auto;
+                        font-weight: 500;
+                    }
+
+                    h2 {
+                        width: 20vw;
+                        margin: 6.2vw 14.6vw 1vw auto;
+                        font-size: 2.5vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #F72586;
+                        font-weight: 700;
+                        font-size: 1.1vw;
+                        margin-top: 23px;
+                        margin-bottom: 5px;
+                    }
+
+                    .check {
+                        position: absolute;
+                        margin-left: -19px;
+                        margin-top: 4px;
+                        width: 12px;
+                        height: 12px;
+                    }
+
+                    button {
+                        margin: 1vw 0vw 0vw 4vw;
+
+                    }
+
+                    .socialMedia-wrapper {
+                        display: flex;
+                        margin: 4vw 20.5vw 0vw auto;
+                        width: 8vw;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+
+                        .imgBackgroundFB {
+                            background: url(../../assets/Contact/Tracé23621.png);
+                            background-repeat: no-repeat;
+                            width: 3.5vw;
+                            background-size: contain;
+                            height: 3.5vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 5px;
+                            margin-bottom: 2px;
+
+                            img {
+                                width: 1vw;
+                            }
+                        }
+
+                        .imgBackgroundInst {
+                            background: url(../../assets/Contact/Tracé23622.png);
+                            background-repeat: no-repeat;
+                            width: 3.2vw;
+                            background-size: contain;
+                            height: 3.2vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: 1.8vw;
+                                margin-top: -6px;
+                                margin-right: 5px;
+                            }
+                        }
+
+                        .imgBackgroundIn {
+                            background: url(../../assets/Contact/Tracé23624.png);
+                            background-repeat: no-repeat;
+                            width: 3.2vw;
+                            background-size: contain;
+                            height: 3.2vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 5px;
+
+                            img {
+                                width: 1.4vw;
+                                margin-top: 0px;
+                                margin-right: -1px;
+                            }
+                        }
+
+                        .imgBackgroundSnap {
+                            background: url(../../assets/Contact/Tracé23623.png);
+                            background-repeat: no-repeat;
+                            width: 3.2vw;
+                            background-size: contain;
+                            height: 3.2vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: 1.6vw;
+                                margin-top: -5px;
+                                margin-right: -11px;
+                                filter: invert(100%);
+                            }
+                        }
+                    }
+                }
+
+
+                .reussir1-left {
+                    z-index: 11;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-right: -7vw;
+
+                    .imgVM {
+                        display: none;
+                    }
+
+                    .img {
+                        width: 26vw;
+                    }
+
+                    .shape {
+                        position: absolute;
+                        width: 5.5vw;
+                        margin: -1.2vw 0px 0 -11.7vw;
+                        z-index: -10;
+                    }
+
+                    .shapeVM {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 945px) {
+
+    .contact-wrapper {
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            width: 28vw;
+            font-size: 3vw;
+            height: 6vw;
+            background-color: #F72586;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            font-family: 'SourceSansPro Regular';
+            cursor: pointer;
+        }
+
+        .reussir-wrapper {
+            // height: 500px;
+            // background-color: rgb(226, 0, 0);
+            display: flex;
+            flex-direction: column;
+            margin: 73px 6vw 5vw;
+
+            .reussir1 {
+                align-items: center;
+                border: 2px solid #f72586;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 7vw 4vw 0;
+
+                .reussir1-right {
+                    // background: url(../../assets/Contact/Rectangle4436.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    text-align: center;
+                    width: 53vw;
+                    // height: 42vw;
+                    z-index: 10;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    p {
+                        font-size: 3.5vw;
+                        width: 64vw;
+                        font-weight: 500;
+                        margin-top: 0;
+                    }
+
+                    h2 {
+                        width: 29vw;
+                        font-size: 3.9vw;
+                        margin-bottom: 10px;
+
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #F72586;
+                        font-weight: 700;
+                        font-size: 1.1vw;
+                        margin-top: 23px;
+                        margin-bottom: 5px;
+                    }
+
+                    .check {
+                        position: absolute;
+                        margin-left: -19px;
+                        margin-top: 4px;
+                        width: 12px;
+                        height: 12px;
+                    }
+
+                    button {
+                        // margin: 1vw 0vw 0vw 9vw;
+
+                    }
+
+                    .socialMedia-wrapper {
+                        display: flex;
+                        // margin: 5vw 18vw 0vw auto;
+                        width: 22vw;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 6vw 0;
+
+                        .imgBackgroundFB {
+                            background: url(../../assets/Contact/Tracé23621.png);
+                            background-repeat: no-repeat;
+                            width: 7.5vw;
+                            background-size: contain;
+                            height: 7.5vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 5px;
+                            margin-bottom: 5px;
+
+                            img {
+                                width: 2vw;
+                            }
+                        }
+
+                        .imgBackgroundInst {
+                            background: url(../../assets/Contact/Tracé23622.png);
+                            background-repeat: no-repeat;
+                            width: 7.2vw;
+                            background-size: contain;
+                            height: 7.2vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: 3.8vw;
+                                margin-top: -6px;
+                                margin-right: 5px;
+                            }
+                        }
+
+                        .imgBackgroundIn {
+                            background: url(../../assets/Contact/Tracé23624.png);
+                            background-repeat: no-repeat;
+                            width: 7.2vw;
+                            background-size: contain;
+                            height: 7.2vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 5px;
+
+                            img {
+                                width: 3.4vw;
+                                margin-top: 0px;
+                                margin-right: -1px;
+                            }
+                        }
+
+                        .imgBackgroundSnap {
+                            background: url(../../assets/Contact/Tracé23623.png);
+                            background-repeat: no-repeat;
+                            width: 7.2vw;
+                            background-size: contain;
+                            height: 7.2vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: 3.6vw;
+                                margin-top: -5px;
+                                margin-right: -9px;
+                                filter: invert(100%);
+                            }
+                        }
+                    }
+                }
+
+
+                .reussir1-left {
+                    z-index: 11;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    // margin-right: -7vw;
+
+                    .img {
+                        display: none;
+                    }
+
+                    .imgVM {
+                        width: 45vw;
+                        // margin: auto;
+                    }
+
+                    .shape {
+                        display: none;
+
+                    }
+
+                    .shapeVM {
+                        position: absolute;
+                        width: 9vw;
+                        margin: -2.2vw 0px 0 -19.5vw;
+                        z-index: -3;
+                    }
+                }
+            }
+        }
+    }
+}

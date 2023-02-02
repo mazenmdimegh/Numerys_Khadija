@@ -1,0 +1,973 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700;800&display=swap');
+
+@media only screen and (min-width: 945px) {
+    .Home-wrapper {
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            background-color: #f72586;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            font-family: SourceSansPro Regular;
+            font-size: 22px;
+            height: 44px;
+            max-width: 254px;
+            width: 15.5vw;
+            max-height: 37px;
+        }
+
+        .Phone-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            color: #fff;
+            // margin-bottom: 64px;
+
+            // padding: 0 10vw;
+            .phones {
+                margin-left: 2vw;
+
+                img {
+                    width: 71vw;
+                }
+            }
+
+            .phone-text {
+                // width: 31vw;
+                text-align: left;
+                margin-left: -13vw;
+
+                .phone-text-content {
+                    width: 24vw;
+                    height: 32vw;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h2 {
+                        font-size: 2vw;
+                        margin: 17px 0;
+                    }
+
+                    p {
+                        margin: 4px 0;
+                        font-size: 1.3vw;
+                    }
+
+                    .smaller {
+                        font-size: 1vw;
+                    }
+
+                    .apple-android {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 1vw;
+
+                        .apple {
+                            height: 2.5vw;
+                        }
+
+                        .android {
+                            height: 4vw;
+                        }
+                    }
+                }
+            }
+
+            .back {
+                background-color: #4460EF;
+                position: absolute;
+                height: 32vw;
+                width: 100%;
+                z-index: -1;
+            }
+        }
+
+        .reussir-wrapper {
+            // height: 500px;
+            // background-color: rgb(226, 0, 0);
+            display: flex;
+            margin: 128px 12vw 64px 19vw;
+            flex-direction: column;
+
+            .reussir1 {
+                display: flex;
+                justify-content: center;
+
+                .reussir1-right {
+                    padding: 15px 0px 35px 6vw;
+                    text-align: left;
+
+                    p {
+                        font-size: 17px;
+                        max-width: 533px;
+                    }
+
+                    h2 {
+                        margin-top: 0;
+                        font-size: 2.5vw;
+                        width: 39vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #3A0CA3;
+                        font-weight: 900;
+                    }
+
+                    button {
+                        // font-size: 16px;
+                        margin-top: 10px;
+                    }
+                }
+
+                .reussir1-leftVM {
+                    display: none;
+                }
+
+                .reussir1-left {
+                    z-index: 11;
+                    display: flex;
+                    flex-direction: column;
+                    // margin-top: 86px;
+                    // flex-direction: column-reverse;
+                    // justify-content: center;
+
+                    .img {
+                        width: 21vw;
+                        min-width: 251px;
+                        // margin: auto;
+                    }
+
+                    .shape {
+                        position: absolute;
+                        width: 6vw;
+                        min-width: 71px;
+                        max-width: 90px;
+                        margin: -28px 0px 0 -22px;
+                        z-index: -10;
+                    }
+                }
+            }
+
+            .reussir2 {
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: row-reverse;
+
+                .reussir2-right {
+                    padding: 79px 3vw 35px 1vw;
+                    text-align: left;
+
+                    p {
+                        font-size: 17px;
+                        max-width: 568px;
+                    }
+
+                    h2 {
+                        margin-top: 0;
+                        font-size: 2.5vw;
+                        width: 39vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #3A0CA3;
+                        font-weight: 900;
+                        // width: 33vw;
+                    }
+
+                    button {
+                        // font-size: 16px;
+                        margin-top: 10px;
+                    }
+                }
+
+                .reussir2-leftVM {
+                    display: none;
+                }
+
+                .reussir2-left {
+                    align-items: flex-end;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    z-index: 11;
+                    margin-top: 2vw;
+
+                    .img {
+                        min-width: 250px;
+                        width: 21vw;
+                    }
+
+                    .shape {
+                        position: absolute;
+                        width: 5vw;
+                        min-width: 71px;
+                        max-width: 74px;
+                        margin: 25px 0px 0 23px;
+                        z-index: -10;
+                    }
+                }
+            }
+        }
+
+        .inscr {
+            // height: 500px;
+            color: white;
+            display: flex;
+            margin: 80px 15vw;
+            justify-content: center;
+
+            .inscr-content {
+                height: 30vw;
+                background: url(../../assets/PinkInscr.png);
+                background-repeat: space;
+                background-size: contain;
+                width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+
+                .inscr-text {
+                    margin: auto 0;
+                    // max-width: 504px;
+                    width: 51%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        min-width: 329px;
+                        width: 29vw;
+                        font-size: 2.3vw;
+                        margin: 0;
+
+                        span {
+                            color: #F72586;
+                        }
+                    }
+
+                    p {
+                        width: 28vw;
+                        font-size: 1vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    button {
+                        background-color: #3A0CA3;
+                        // font-size: 23px;
+                        margin-top: 10px;
+                    }
+                }
+
+            }
+        }
+
+        .roles-inscrVM {
+            display: none;
+        }
+
+        .roles-inscr {
+            height: 500px;
+            display: flex;
+            color: white;
+
+            .font {
+                z-index: 100;
+                position: absolute;
+                background: url(../../assets/background.png);
+                height: 500px;
+                background-size: contain;
+                width: 100%;
+                opacity: 0.8;
+            }
+
+            .particulier {
+                background: url(../../assets/asian-veiled-woman-take-clothes-from-wardrobe.png);
+                background-size: cover;
+                height: 500px;
+                width: 33.3%;
+                // background-color: #F72586;
+                display: flex;
+                align-items: flex-end;
+
+                .particulier-content {
+                    width: 253px;
+                    margin: 50px auto;
+                    z-index: 101;
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+
+            .proffessionnel {
+                background: url(../../assets/asian-hijab-designers-selling-her-product-online-through-e-commerce-marketplace.png);
+                background-size: cover;
+                height: 500px;
+                width: 33.3%;
+                display: flex;
+                align-items: flex-end;
+
+                .proffessionnel-content {
+                    width: 287px;
+                    margin: 50px auto;
+                    z-index: 101;
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .association {
+                background: url(../../assets/friends-volunteers-stack-boxes-inspection-humanitarian-aid-donations-poor.png);
+                background-size: cover;
+                height: 500px;
+                width: 33.39%;
+                display: flex;
+                align-items: flex-end;
+
+                .association-content {
+                    width: 300px;
+                    margin: 50px auto;
+                    z-index: 101;
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .dattePics {
+            // height: 500px;
+            color: white;
+            display: flex;
+            margin: 80px;
+            justify-content: center;
+
+            img:hover {
+                box-shadow: 1px 2px 3px 2px #88888882;
+            }
+
+            img {
+                width: 13vw;
+                margin: 6px;
+                border-radius: 10px;
+            }
+
+            .group {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+        }
+
+        .Nations-wrapVM {
+            display: none;
+        }
+
+        .Nations-wrap {
+            height: 31vw;
+            color: white;
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 80px;
+            align-items: flex-start;
+
+            .quran {
+                z-index: 11;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    width: 44vw;
+                    text-align: left;
+                    font-size: 1.1vw;
+                    margin: 13px auto;
+                }
+
+                span {
+                    font-weight: 900;
+                    letter-spacing: 0.5px;
+                }
+
+                h2 {
+                    margin: 5vw 25px 3vw;
+                    font-size: 1.75vw;
+                    width: 49vw;
+                }
+            }
+
+            .business {
+                z-index: 11;
+                display: flex;
+                margin-top: 86px;
+                flex-direction: column-reverse;
+                justify-content: center;
+
+                .img {
+                    width: 32vw;
+                    // max-width: 540px;
+                    margin: auto;
+                }
+
+                .shape {
+                    position: absolute;
+                    width: 9vw;
+                    // min-width: 115px;
+                    // max-width: 141px;
+                    margin: -9vw -2.5vw 0vw;
+                    z-index: -10;
+                }
+            }
+
+            .back-right {
+                background-color: #3A0CA3;
+                width: 65%;
+                height: 33vw;
+                border-radius: 20px;
+                position: absolute;
+            }
+        }
+
+        .marketplace {
+            height: 100px;
+            background-color: #F72586;
+            display: flex;
+            // margin-top: 20px;
+
+            h2 {
+                margin: auto;
+                font-size: 30px;
+                font-family: "Open Sans";
+                font-weight: 700;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .Home-wrapper {
+        margin-top: 44px;
+
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            width: 28vw;
+            font-size: 3vw;
+            height: 6vw;
+            background-color: #F72586;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            font-family: 'SourceSansPro Regular';
+            cursor: pointer;
+        }
+
+        .Phone-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            color: #fff;
+
+            // margin-bottom: 64px;
+            .phones {
+                margin-left: -20vw;
+                margin-bottom: 2vw;
+
+                img {
+                    width: 100vw;
+                }
+            }
+
+            .phone-text {
+                // width: 31vw;
+                margin-left: -27vw;
+                text-align: left;
+
+                .phone-text-content {
+                    width: 41vw;
+                    height: 53vw;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 3.2vw;
+                        width: 30vw;
+                        margin-top: 1vw;
+                        margin-bottom: 1vw;
+                    }
+
+                    p {
+                        font-size: 2.4vw;
+                        margin: 4.5px;
+                        width: 44vw;
+                    }
+
+                    .smaller {
+                        font-size: 1.9vw;
+                    }
+
+                    .apple-android {
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 1vw;
+
+                        .apple {
+                            height: 4.2vw;
+                        }
+
+                        .android {
+                            height: 6.8vw;
+                            margin-right: -2vw;
+                        }
+                    }
+                }
+            }
+
+            .back {
+                background-color: #4460EF;
+                position: absolute;
+                height: 53vw;
+                width: 100%;
+                z-index: -1;
+            }
+        }
+
+        .reussir-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin: 71px 10vw 0;
+
+            .reussir1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .reussir1-right {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 16px 0 32px;
+                    text-align: center;
+
+                    p {
+                        font-size: 2.5vw;
+                        // max-width: 500px;
+                        margin-top: 0;
+                        width: 74vw;
+                    }
+
+                    h2 {
+                        margin-top: 0;
+                        font-size: 3.9vw;
+                        // width: 39vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #3A0CA3;
+                        font-weight: 900;
+                    }
+
+                    button {
+                        margin: 0px 0 29px;
+                        max-height: 39px;
+                    }
+                }
+
+                .reussir1-left {
+                    display: none;
+                }
+
+                .reussir1-leftVM {
+                    z-index: 11;
+                    display: flex;
+                    flex-direction: column;
+                    // margin-top: 86px;
+                    // flex-direction: column-reverse;
+                    // justify-content: center;
+
+                    .img {
+                        min-width: 187px;
+                        width: 53vw;
+                    }
+
+                    .shape {
+                        position: absolute;
+                        width: 7vw;
+                        min-width: 38px;
+                        max-width: 96px;
+                        margin: -20px 0px 0 -13px;
+                        z-index: -10;
+                    }
+                }
+            }
+
+            .reussir2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .reussir2-right {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 33px 0 20px;
+                    text-align: center;
+                    width: 74vw;
+
+                    p {
+                        font-size: 2.5vw;
+                        max-width: 500px;
+                        margin-top: 0;
+                    }
+
+                    h2 {
+                        margin-top: 0;
+                        font-size: 3.9vw;
+                        width: 80vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #3A0CA3;
+                        font-weight: 900;
+                        width: 64vw;
+                    }
+
+                    button {
+                        margin: 0px 0 29px;
+                        max-height: 39px;
+                    }
+                }
+
+                .reussir2-left {
+                    display: none;
+                }
+
+                .reussir2-leftVM {
+                    z-index: 11;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: flex-end;
+                    // margin-top: 86px;
+                    // flex-direction: column-reverse;
+                    // justify-content: center;
+
+                    .img {
+                        min-width: 187px;
+                        width: 53vw;
+                    }
+
+                    .shape {
+                        position: absolute;
+                        width: 6vw;
+                        min-width: 32px;
+                        max-width: 93px;
+                        margin: 12px 0px 0 11px;
+                        z-index: -10;
+                    }
+                }
+            }
+        }
+
+        .inscr {
+            color: white;
+            display: flex;
+            margin: 40px 0;
+            justify-content: center;
+
+            .inscr-content {
+                background: url(../../assets/HomeVM/indoor-shot-dreamy-positive-young-woman-uses-mobile-phone-checks-messages-dressed-pink-knitted-jumper-isolated-blue-wall-with-copy-space-your-promotio.png);
+                height: 53vw;
+                background-repeat: space;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+
+                .inscr-text {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto 0;
+                    width: 49%;
+
+                    h2 {
+                        width: 43vw;
+                        font-size: 3.5vw;
+                        margin: 0;
+
+                        span {
+                            color: #f72586;
+                        }
+                    }
+
+                    p {
+                        width: 44vw;
+                        font-size: 2vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    button {
+                        background-color: #7109b6;
+                        font-size: 3vw;
+                        height: 6.5vw;
+                        margin-top: 8px;
+                    }
+                }
+
+            }
+        }
+
+        .roles-inscr {
+            display: none;
+        }
+
+        .roles-inscrVM {
+            // height: 500px;
+            // display: flex;
+            color: white;
+
+            // display: none;
+            .font {
+                z-index: 100;
+                position: absolute;
+                background: url(../../assets/HomeVM/Rectangle4415.png);
+                height: 41vw;
+                background-size: cover;
+                width: 100%;
+                // opacity: 0.8;
+            }
+
+            .particulier {
+                background: url(../../assets/HomeVM/asian-veiled-woman-take-clothes-from-wardrobe-Mobile.png);
+                background-size: cover;
+                height: 41vw;
+                width: 100%;
+                // background-color: #F72586;
+                display: flex;
+                align-items: flex-end;
+                background-position: center;
+                min-height: 250px;
+
+                .particulier-content {
+                    width: 41vw;
+                    margin: auto auto auto 10vw;
+                    z-index: 101;
+
+                    h1 {
+                        font-size: 6vw;
+                        font-weight: 900;
+                        margin-bottom: 6px;
+                    }
+
+                    p {
+                        margin-top: 0;
+                        font-size: 2.4vw;
+                        font-weight: 700;
+                        width: 45vw;
+                    }
+                }
+
+            }
+
+            .proffessionnel {
+                background: url(../../assets/HomeVM/asian-hijab-designers-selling-her-product-online-through-e-commerce-marketplace.png);
+                background-size: cover;
+                height: 41vw;
+                width: 100%;
+                // background-color: #F72586;
+                display: flex;
+                align-items: flex-end;
+                background-position: center;
+                min-height: 250px;
+
+                .proffessionnel-content {
+                    width: 41vw;
+                    margin: auto 10vw auto auto;
+                    z-index: 101;
+
+                    h1 {
+                        font-size: 6vw;
+                        font-weight: 900;
+                        margin-bottom: 6px;
+                    }
+
+                    p {
+                        margin-top: 0;
+                        font-size: 2.4vw;
+                        font-weight: 700;
+                        width: 40vw;
+                    }
+                }
+
+            }
+
+            .association {
+                background: url(../../assets/HomeVM/friends.jpg);
+                background-size: cover;
+                height: 41vw;
+                width: 100%;
+                // background-color: #F72586;
+                display: flex;
+                align-items: flex-end;
+                background-position: center;
+                min-height: 250px;
+
+                .association-content {
+                    width: 41vw;
+                    margin: auto auto auto 10vw;
+                    z-index: 101;
+
+                    h1 {
+                        font-size: 6vw;
+                        font-weight: 900;
+                        margin-bottom: 6px;
+                    }
+
+                    p {
+                        margin-top: 0;
+                        font-size: 2.4vw;
+                        font-weight: 700;
+                        width: 45vw;
+                    }
+                }
+
+            }
+        }
+
+        .dattePics {
+            color: white;
+            display: flex;
+            margin: 30px 0;
+            justify-content: center;
+
+            img:hover {
+                box-shadow: 1px 2px 3px 2px #88888882;
+            }
+
+            img {
+                width: 15vw;
+                margin: 6px;
+                border-radius: 10px;
+            }
+
+            .group {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+        }
+
+        .Nations-wrap {
+            display: none;
+        }
+
+        .Nations-wrapVM {
+            align-items: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 63px 0 30px;
+
+            .quran {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                padding: 0 7vw;
+                z-index: 11;
+                margin-bottom: 20px;
+
+                p {
+                    font-size: 2.7vw;
+                    padding: 0 2vw;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+
+                span {
+                    font-weight: 900;
+                    letter-spacing: 0.5px;
+                }
+
+                h2 {
+                    margin: 3vw 0 3vw;
+                    font-size: 3.5vw;
+                    max-width: 754px;
+                }
+            }
+
+            .business {
+                z-index: 11;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+
+                .img {
+                    border-radius: 18px;
+                    margin: auto;
+                    min-width: 164px;
+                    width: 38vw;
+                }
+
+                .shape {
+                    position: absolute;
+                    width: 9vw;
+                    min-width: 63px;
+                    max-width: 111px;
+                    margin: -19px -20px 0vw;
+                    z-index: -10;
+                }
+            }
+
+            .back-right {
+                background-color: #3A0CA3;
+                position: absolute;
+                width: 100%;
+                height: 80vw;
+            }
+        }
+
+        .marketplace {
+            display: none;
+
+        }
+    }
+}

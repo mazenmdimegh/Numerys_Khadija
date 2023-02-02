@@ -1,0 +1,556 @@
+@media screen and (min-width:945px) {
+    .compte-professionnel-Wrapper {
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            width: 15.5vw;
+            height: 43px;
+            background-color: #F72586;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            font-size: 22px;
+            font-family: 'SourceSansPro Regular';
+            cursor: pointer;
+        }
+
+        .creez-wrapper {
+            background-color: #3A0CA3;
+            display: flex;
+            height: 40vw;
+            color: #fff;
+            justify-content: flex-end;
+            // align-items: flex-end;
+
+            .creez-left {
+                padding: 4vw 6vw 4vw 3vw;
+                text-align: left;
+                margin-right: -5vw;
+                width: 38vw;
+
+                h1 {
+                    font-size: 3vw;
+                    margin: 4vw 0 0;
+                    line-height: 3.5vw;
+                }
+
+                span {
+                    font-weight: 900;
+                }
+
+                p {
+                    font-size: 1.005vw;
+                    margin-bottom: 2vw;
+                    margin-top: 2vw;
+                }
+
+                button {
+                    height: 3vw;
+                    max-height: 50px;
+                }
+            }
+
+            .creez-right {
+                // margin-right: -5vw;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                overflow: hidden;
+                width: 52vw;
+
+                .women {
+                    width: 63vw;
+                    z-index: 3;
+                    // height: 30vw;
+                    background: url(../../assets/Compte-Pro/Ellipse9.png);
+                    background-repeat: no-repeat;
+                    background-size: 35vw;
+                    background-position: 11vw 14vw;
+                }
+
+                .item1 {
+                    width: 11vw;
+                    position: absolute;
+                    margin: -17vw 0 0 11.5vw;
+                    z-index: 3;
+                }
+
+                .item2 {
+                    width: 11vw;
+                    position: absolute;
+                    margin: -1vw -20.5vw 0vw;
+                    z-index: 3;
+                }
+
+                .item3 {
+                    width: 2.5vw;
+                    position: absolute;
+                    margin: -16vw 0 0 18.5vw;
+                    z-index: 3;
+                }
+
+                .item4 {
+                    width: 3.5vw;
+                    position: absolute;
+                    margin: -17vw -19vw 0vw;
+                    z-index: 3;
+                }
+
+                .item5 {
+                    width: 2.5vw;
+                    position: absolute;
+                    margin: -26vw -15.5vw 0vw;
+                    z-index: 3;
+                }
+
+                .item6 {
+                    width: 4vw;
+                    position: absolute;
+                    margin: -3vw 14vw 0vw;
+                    z-index: 3;
+                }
+
+                .item7 {
+                    width: 5vw;
+                    position: absolute;
+                    margin: -27vw 16vw 0vw;
+                    z-index: 2;
+                }
+
+                .hideItem {
+                    display: none;
+                }
+            }
+        }
+
+        .reussir-wrapper {
+            // height: 500px;
+            // background-color: rgb(226, 0, 0);
+            display: flex;
+            margin: 15vw 12vw 0 19vw;
+            flex-direction: column;
+
+            .reussir1 {
+                display: flex;
+                justify-content: center;
+
+                .reussir1-right {
+                    padding: 0 7vw 35px 6vw;
+                    text-align: left;
+                    width: 30vw;
+                    margin-top: -5.5vw;
+
+                    p {
+                        font-size: 1vw;
+                        max-width: 500px;
+                        margin-top: 0;
+                    }
+
+                    h2 {
+                        margin-top: 0;
+                        font-size: 2.5vw;
+                        width: 39vw;
+                    }
+
+                    span {
+                        font-weight: 900;
+                    }
+
+                    .bold-color {
+                        color: #F72586;
+                        font-weight: 700;
+                        font-size: 1.1vw;
+                        margin-top: 23px;
+                        margin-bottom: 5px;
+                    }
+
+                    .check {
+                        height: 12px;
+                        margin-left: -19px;
+                        margin-top: 6px;
+                        position: absolute;
+                        width: 12px;
+                    }
+                }
+
+
+                .reussir1-left {
+                    z-index: 11;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .imgVM {
+                        display: none;
+                    }
+
+                    .img {
+                        width: 37vw;
+                        height: 35vw;
+                        min-width: 251px;
+                    }
+
+                    .shape {
+                        position: absolute;
+                        width: 9vw;
+                        margin: -3.5vw 0px 0 -16.5vw;
+                        z-index: -10;
+                    }
+
+                    .shape2 {
+                        position: absolute;
+                        width: 6vw;
+                        margin: 32vw 0px 0 16.3vw;
+                        z-index: -3;
+                    }
+                }
+            }
+        }
+
+        .donner-wrapper {
+            margin: 1px 13vw 8vw;
+            height: 29vw;
+            border-radius: 30px;
+            background-color: #3A0CA3;
+            display: flex;
+
+            .donner-text {
+                padding: 3vw 4vw 2vw 4vw;
+                text-align: left;
+                margin-left: 4vw;
+                width: 31vw;
+                color: #fff;
+
+                h1 {
+                    font-size: 2.3vw;
+                    margin: 0;
+                    width: 50vw;
+                    margin-bottom: 3vw;
+                    margin-top: 17px;
+
+                }
+
+                .h11 {
+                    margin-bottom: 16px;
+                }
+
+                span {
+                    font-weight: 900;
+                }
+
+                p {
+                    font-size: 1vw;
+                    margin-bottom: 0vw;
+                }
+
+                button {
+                    height: 3vw;
+                    max-height: 50px;
+                    margin-top: 18px;
+                }
+
+                .nous {
+                    margin-bottom: 4px;
+                }
+            }
+
+            .donner-img {
+                img {
+                    width: 27vw;
+                    margin-left: -3vw;
+                    margin-top: -1.5vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:945px) {
+    .compte-professionnel-Wrapper {
+        button:hover {
+            border: 1px solid #ffffff63;
+        }
+
+        button {
+            width: 28vw;
+            font-size: 3vw;
+            height: 6vw;
+            background-color: #F72586;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            font-family: 'SourceSansPro Regular';
+            cursor: pointer;
+        }
+
+        .creez-wrapper {
+            background-color: #3A0CA3;
+            display: flex;
+            color: #fff;
+            flex-direction: column-reverse;
+            align-items: center;
+            margin-top: 43px;
+
+            .creez-left {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-right: -5vw;
+                padding: 4vw;
+                text-align: center;
+                width: 80vw;
+
+                h1 {
+                    font-size: 3.8vw;
+                    margin: 6vw 0 0;
+                    margin-top: 0;
+                    width: 65vw;
+
+                }
+
+                span {
+                    font-weight: 900;
+                }
+
+                p {
+                    font-size: 3vw;
+                    margin-bottom: 2vw;
+                }
+
+                button {
+                    margin: 1vw 0 3vw;
+                }
+            }
+
+            .creez-right {
+                // margin-right: -5vw;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                // overflow: hidden;
+                width: 52vw;
+                margin-left: 12vw;
+
+                .women {
+                    width: 77vw;
+                    z-index: 3;
+                    background: url(../../assets/Compte-Pro/Ellipse9.png);
+                    background-repeat: no-repeat;
+                    background-size: 43vw;
+                    background-position: 14vw 8.5vw;
+
+                }
+
+                .item0 {
+                    width: 27vw;
+                    position: absolute;
+                    margin: 3vw 0 0 -2.5vw;
+                    z-index: 3;
+                }
+
+                .item1 {
+                    width: 13vw;
+                    position: absolute;
+                    margin: -22vw 0 0 17.5vw;
+                    z-index: 3;
+                }
+
+                .item2 {
+                    width: 13vw;
+                    position: absolute;
+                    margin: 2vw -24.5vw 0vw;
+                    z-index: 3;
+                }
+
+                .item3 {
+                    width: 3vw;
+                    position: absolute;
+                    margin: -28vw 0 0 22.5vw;
+                    z-index: 1;
+                }
+
+                .item4 {
+                    width: 3.5vw;
+                    position: absolute;
+                    margin: -27vw -24vw 0vw;
+                    z-index: 3;
+                }
+
+                .item5 {
+                    width: 3vw;
+                    position: absolute;
+                    margin: -41vw -15.5vw 0vw;
+                    z-index: 3;
+                }
+
+                .item6 {
+                    width: 4vw;
+                    position: absolute;
+                    margin: -12vw 17vw 0vw;
+                    z-index: 4;
+                }
+
+                .item7 {
+                    width: 5vw;
+                    position: absolute;
+                    margin: -39.5vw 20.5vw 0vw;
+                    z-index: 2;
+                }
+
+                .hideItem {
+                    width: 5vw;
+                    position: absolute;
+                    margin: -39.5vw 20.5vw 0vw;
+                    z-index: 2;
+                }
+            }
+        }
+
+        .reussir-wrapper {
+            // height: 500px;
+            // background-color: rgb(226, 0, 0);
+            display: flex;
+            flex-direction: column;
+            margin: 11vw 12vw 0;
+
+            .reussir1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .reussir1-right {
+                    margin-top: 5.5vw;
+                    padding: 0 0 35px;
+                    text-align: left;
+                    width: 85vw;
+
+                    p {
+                        font-size: 3.5vw;
+                        // max-width: 500px;
+                        margin-top: 0;
+                        padding-left: 25px;
+                    }
+
+                    h2 {
+                        margin-top: 0;
+                        font-size: 4.5vw;
+                        // width: 39vw;
+                    }
+
+                    span {
+                        font-weight: 700;
+                    }
+
+                    .text-centre {
+                        text-align: center;
+                        padding-left: 0;
+                        margin-bottom: 6vw;
+                    }
+
+                    .bold-color {
+                        color: #F72586;
+                        font-weight: 700;
+                        font-size: 3.5vw;
+                        margin-top: 23px;
+                        margin-bottom: 5px;
+                    }
+
+                    .check {
+                        position: absolute;
+                        margin-left: -3vw;
+                        margin-top: 1.6vw;
+                        width: 2vw;
+                        height: 2vw;
+                    }
+                }
+
+
+                .reussir1-left {
+                    z-index: 11;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .img {
+                        display: none;
+                    }
+
+                    .imgVM {
+                        width: 49vw;
+                        // min-width: 251px;
+                        // margin: auto;
+                    }
+
+                    .shape {
+                        margin: -2.5vw 0 0 -15.5vw;
+                        position: absolute;
+                        width: 7.5vw;
+                        z-index: -10;
+                    }
+
+                    .shape2 {
+                        margin: 28.5vw 0 0 18.5vw;
+                        position: absolute;
+                        width: 6vw;
+                        z-index: -3;
+                    }
+                }
+            }
+        }
+
+        .donner-wrapper {
+            // margin: 1px 13vw 8vw;
+            // height: 29vw;
+            // border-radius: 30px;
+            background-color: #3A0CA3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5vw;
+
+            .donner-text {
+                color: #fff;
+                padding: 4vw 0 0 6vw;
+                text-align: left;
+                width: 53vw;
+
+                h1 {
+                    font-size: 4.7vw;
+                    margin: 0;
+                    width: 71vw;
+                    margin-bottom: 5vw;
+                }
+
+                span {
+                    font-weight: 900;
+                }
+
+                p {
+                    font-size: 2.5vw;
+                    margin-bottom: 2vw;
+                }
+
+                button {
+                    // height: 3vw;
+                    // max-height: 50px;
+                    margin: 2vw 0 6vw;
+                }
+
+                .nous {
+                    margin-bottom: 4px;
+                    width: 49vw;
+                }
+            }
+
+            .donner-img {
+                img {
+                    margin-left: -29px;
+                    width: 43vw;
+                }
+            }
+        }
+    }
+}
